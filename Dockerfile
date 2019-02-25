@@ -1,6 +1,6 @@
-FROM microsoft/dotnet:2.2.103-sdk
+FROM microsoft/dotnet:2.2.104-sdk
 
-ENV SONAR_SCANNER_MSBUILD_TOOL 4.5.0
+ENV SONAR_SCANNER_MSBUILD_TOOL 4.6.0
 
 # Install OpenJDK-8
 RUN apt-get update && apt-get install --yes openjdk-8-jdk-headless
